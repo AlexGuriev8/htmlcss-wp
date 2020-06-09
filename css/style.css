@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container{
+  height: 90vw;
+  background-image: url(../immagini/background.jpg);
+  padding: 20px;
+}
+
+header {
+  border-color: red;
+    height: 400px;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.sfondosuperiore {
+    background-image: url(../immagini/sfondo.jpg);
+    width: 98%;
+    height: 82%;
+    background-size: cover;
+    margin: 1%;
+    position:absolute;
+
+}
+
+.sfondosuperiore h1 {
+    color: white;
+    margin-top: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 50px;
+}
+
+.sfondosuperiore h2 {
+    color: white;
+    margin-top: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+}
+.menu {
+    background-color:gray;
+    height: 70px;
+    width: 98%;
+    position: absolute;
+    bottom: 0;
+    line-height: 70px;
+    margin-left: 0;
+    margin-bottom: -12px;
+    right: 15px;
+
+}
+.testo {
+    height: 100%;
+    display:inline-block;
+    width: 13.9%;
+    text-align: center;
+}
+aside .sfondo {
+  height: 600px;
+  width: 15%;
+  float: left;
+  background-color: white;
+  margin-bottom: 10px;
+
+}
+main {
+  height: 500px;
+  width: 60%;
+  float: left;
+  padding: 0 20px;
+
+}
+.sfondo {
+  height: 100%;
+}
+ .second {
+  height: 230px;
+  width: 15%;
+  float: left;
+  background-color: white;
+  margin-bottom: 10px;
+
+}
+main .sfondo {
+  background-color: white;
+  margin-bottom: 10px;
+
+}
+footer{
+  background-color: white;
+  height: 70px;
+}
+p {
+  margin-bottom: 5px;
+  color: green;
+  font-size: 15px;
+  text-align:justify;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.logo {
+  background-image: url(../immagini/sfondo.jpg);
+  height: 5vh;
+  width: 5vw;
+  background-color: red;
+}
